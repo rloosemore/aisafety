@@ -1,3 +1,33 @@
+# Dependencies
 node_modules/
-.DS_Store
+
+# Next.js
+.next/
+out/
+
+# Environment
 .env
+.env.local
+.env.production.local
+.env.development.local
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel
+
+# Debug
+npm-debug.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
